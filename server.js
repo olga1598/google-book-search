@@ -17,8 +17,11 @@ app.use(routes);
 // app.use("/api/users", require("./routes/api/users"))
 // app.use("/api/auth", require("./routes/api/auth"))
 
-// Connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/googlebooks", { useNewUrlParser: true });
+//Connect to mongoDB
+mongoose.Connection("mongodb://testuser10:pwd123pwd@ds155596.mlab.com:55596/heroku_l0p8fvps", { useNewUrlParser: true });
+
+// // Connect to the Mongo DB
+// mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/googlebooks", { useNewUrlParser: true });
 
 // Start the API server
 app.listen(PORT, function() {
