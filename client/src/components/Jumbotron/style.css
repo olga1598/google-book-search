@@ -1,0 +1,29 @@
+/* textAlign: center 
+backgroundColor: */
+
+.jumbotron {
+    background-image: url("https://www.oliversacks.com/os/wp-content/uploads/2015/04/DSC_6976-opt.jpg");
+    height: 300px;
+}
+
+.text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkblue;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+   
+    /* background-color: lightcoral;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding-top: 50px;
+    padding-buttom: 50px; */
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+h1 {
+    font-size: 100px;
+}

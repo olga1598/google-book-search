@@ -1,0 +1,10 @@
+.navbar {
+    margin-bottom: 40px;
+    background-color: darkblue;
+    height: 60px;
+  }
+
+.navbar-brand {
+  font-size: 20px;
+}
+  
